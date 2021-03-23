@@ -5,7 +5,7 @@ import serial
 usb = serial.Serial('/dev/ttyACM0', 9600, timeout=0, dsrdtr=False)
 usb.flush()     # Waits data configuration
 
-usb.write(b"LT E1 RD50 GR0 BL0")    # Turn on led strip in red
+usb.write(b"LT E1 RD50 GR0 BL0")    # Turn on led tape in red
 
 usb.write(b"MT0 E1")                # Enables wheel motors
 
@@ -21,6 +21,6 @@ usb.write(b"MT0 E1 D180 L AT3950 DT3950 V10")   # Move to the left
 
 sleep(1)
 
-usb.write(b"LT E1 RD50 GR0 BL0")    # Turn off led strip
+usb.write(b"LT E1 RD0 GR0 BL0")    # Turn off led tape
 
-usb.write(b"MT0 E0")                # Desables wheel motors
+usb.write(b"MT0 E0")                # Disables wheel motors
