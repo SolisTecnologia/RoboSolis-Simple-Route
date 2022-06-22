@@ -1,3 +1,15 @@
+#!/usr/bin/python3
+"""
+Solis Robot - SoBot
+
+Simple-Route.py: Programming example for the SoBot to move a simple route.
+
+Created By   : Vinicius M. Kawakami
+Version      : 1.0
+
+Company: Solis Tecnologia
+"""
+
 from time import sleep
 import serial
 
