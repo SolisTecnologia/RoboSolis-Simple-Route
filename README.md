@@ -1,4 +1,4 @@
-# Solis Robot - SoBot
+# Solis Robot - SoBot ![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/logo.png)
 ![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/SoBotSingle.png)
 # Introduction
 
