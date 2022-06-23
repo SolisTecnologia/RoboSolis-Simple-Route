@@ -1,4 +1,4 @@
-# Solis Robot - SoBot ![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/logo.png)
+# Solis Robot - SoBot
 ![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/SoBotSingle.png)
 # Introduction
 
@@ -54,3 +54,5 @@ If you have any problem when using our robot after checking this tutorial, pleas
 
 ### Technical support email: 
 contato@solistecnologia.com.br
+
+![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/logo.png)
