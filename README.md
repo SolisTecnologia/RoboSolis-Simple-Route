@@ -14,9 +14,10 @@ Several programming languages can be used to connect via API.
 
 * Main structure in aluminum
 * Removable fairing with magnetic attachment points
-* Raspberry Pi 4B board
+* Robot Control Driver SoBot
+* Raspberry Pi 4B board <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg">
 * NEMA-23 Stepper Motors
-* 12V/5A battery
+* 2x 12V/5A battery
 
 # Programming Example
 ## Basic Control - Simple-Route.py
