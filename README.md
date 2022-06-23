@@ -18,20 +18,22 @@ Several programming languages can be used to connect via API.
 * NEMA-23 Stepper Motors
 * 12V/5A battery
 
-# Programming
-## Basic Control - Simple Route
+# Programming Example
+## Basic Control - Simple-Route.py
 Programming example for the SoBot to move a simple route.
 
 In this example, the robot will move 1 meter forward, 180° to the right, 1 meter forward and 180° to the left.
 
 ### Programming Language
 
-* Python
+* Python  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 
 ### Required Libraries
 
-* sleep
-* serial
+~~~python
+from time import sleep
+import serial
+~~~
 
 The sleep libraries are needed to generate time delays and the serial library for Raspberry serial/usb connection with the robot controller board.
 
@@ -44,7 +46,7 @@ For more information about the commands used, check the Robot Commands Reference
 [SolisTecnologia website](https://solistecnologia.com.br/produtos/robotsingle)
 
 # Please Contact Us
-If you have any problem when using our robot after checking the tutorial, please contact us.
+If you have any problem when using our robot after checking this tutorial, please contact us.
 
 ### Phone:
 +55 1143040786
