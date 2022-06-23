@@ -14,13 +14,13 @@ Several programming languages can be used to connect via API.
 
 * Main structure in aluminum
 * Removable fairing with magnetic attachment points
-* Robot Control Driver SoBot
+* Robot Control Driver
 * Raspberry Pi 4B board <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg">
-* NEMA-23 Stepper Motors
+* 2x NEMA-23 Stepper Motors
 * 2x 12V/5A battery
 
 # Programming Example
-## Basic Control - Simple-Route.py
+## Basic Control - [Simple-Route.py](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/Simple-Route.py)
 Programming example for the SoBot to move a simple route.
 
 In this example, the robot will move 1 meter forward, 180° to the right, 1 meter forward and 180° to the left.
@@ -36,7 +36,7 @@ from time import sleep
 import serial
 ~~~
 
-The sleep libraries are needed to generate time delays and the serial library for Raspberry serial/usb connection with the robot controller board.
+The ''time'' library is needed to generate time delays and the ''serial'' library for serial/usb Raspberry connection with the robot controller driver.
 
 
 
