@@ -25,13 +25,13 @@ sleep(0.1)
 
 usb.write(b"MT0 E1 D1000 AT5000 DT5000 V10")    # Move forward
 
-usb.write(b"MT0 E1 D180 R AT3950 DT3950 V10")   # Move to the right
+usb.write(b"MT0 E1 D90 R AT3950 DT3950 V10")    # Move 90° to the right
 
 usb.write(b"MT0 E1 D1000 AT5000 DT5000 V10")    # Move forward
 
-usb.write(b"MT0 E1 D180 L AT3950 DT3950 V10")   # Move to the left
+usb.write(b"MT0 E1 D90 L AT3950 DT3950 V10")    # Move 90° to the left
 
-sleep(1)
+usb.write(b"MT0 E1 D1000 AT5000 DT5000 V10")    # Move forward
 
 usb.write(b"LT E1 RD0 GR0 BL0")    # Turn off led tape
 
