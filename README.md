@@ -23,7 +23,9 @@ Several programming languages can be used to connect via API.
 ## Basic Control - [Simple-Route.py](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/Simple-Route.py)
 Programming example for the SoBot to move a simple route.
 
-In this example, the robot will move 1 meter forward, 180° to the right, 1 meter forward and 180° to the left.
+In this example, the robot will move 1 meter forward, 90° to the right, 1 meter forward, 90° to the left and 1 meter forward to finish.
+
+![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/Simple-route-course.png)
 
 ### Programming Language
 
@@ -44,7 +46,7 @@ For more information about the commands used, check the Robot Commands Reference
 
 
 # Reference Link
-[SolisTecnologia website](https://solistecnologia.com.br/produtos/robotsingle)
+[SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
 
 # Please Contact Us
 If you have any problem when using our robot after checking this tutorial, please contact us.
