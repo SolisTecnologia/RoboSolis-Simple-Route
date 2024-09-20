@@ -13,7 +13,6 @@ Several programming languages can be used to connect via API.
 # Components
 
 * Main structure in aluminum
-* Removable fairing with magnetic attachment points
 * Robot Control Driver
 * Raspberry Pi 4B board <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg">
 * 2x NEMA-23 Stepper Motors
